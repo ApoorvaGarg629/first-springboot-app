@@ -30,6 +30,14 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<!-- dependency for spring data rest = helpful to add rest apis for many entities, reducing boilerplate code for controller and service.
+				It helps in creating rest endpoints for the entities by scanning jpa repository and thats it. Only entity and jpa repository is 
+				required.
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
